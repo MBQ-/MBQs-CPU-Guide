@@ -211,6 +211,7 @@ private void selectItem(int position) {
    
    case 0:
        ft.replace(R.id.content_frame, Welcome);
+       ft.addToBackStack(null);
        break; 
        
    case 1:
