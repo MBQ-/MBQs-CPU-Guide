@@ -22,7 +22,7 @@ public class Lionheart extends FragmentActivity {
         
         setContentView(R.layout.lionheart);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager10);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerLH);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

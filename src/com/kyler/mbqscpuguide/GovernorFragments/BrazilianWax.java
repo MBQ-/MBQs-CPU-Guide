@@ -20,7 +20,7 @@ public class BrazilianWax extends FragmentActivity {
 		setContentView(R.layout.brazilianwax);
 
 		// Locate the viewpager in activity_main.xml
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager1);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerBW);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new BrazilianWaxPagerAdapter(getSupportFragmentManager()));

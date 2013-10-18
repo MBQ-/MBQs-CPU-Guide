@@ -22,7 +22,7 @@ public class Lulzactive extends FragmentActivity {
         
         setContentView(R.layout.lulzactive);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager11);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerLA);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

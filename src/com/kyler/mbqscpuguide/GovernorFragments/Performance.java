@@ -22,7 +22,7 @@ public class Performance extends FragmentActivity {
         
         setContentView(R.layout.performance);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager18);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerP);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

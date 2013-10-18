@@ -22,7 +22,7 @@ public class MinMax extends FragmentActivity {
         
         setContentView(R.layout.minmax);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager69);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerMM);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

@@ -22,7 +22,7 @@ public class OnDemandX extends FragmentActivity {
         
         setContentView(R.layout.ondemandx);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager16);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerODX);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

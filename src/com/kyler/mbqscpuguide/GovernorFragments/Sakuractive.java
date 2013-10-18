@@ -22,7 +22,7 @@ public class Sakuractive extends FragmentActivity {
         
         setContentView(R.layout.sakuractive);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager20);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerS);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

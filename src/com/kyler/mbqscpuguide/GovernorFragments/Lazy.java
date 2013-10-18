@@ -22,7 +22,7 @@ public class Lazy extends FragmentActivity {
         
         setContentView(R.layout.lazy);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager9);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerL);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

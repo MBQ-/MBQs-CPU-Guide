@@ -22,7 +22,7 @@ public class SmartassV2 extends FragmentActivity {
         
         setContentView(R.layout.smartassv2);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager24);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerSA2);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

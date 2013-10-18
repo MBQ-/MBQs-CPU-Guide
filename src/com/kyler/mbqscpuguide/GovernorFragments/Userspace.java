@@ -20,7 +20,7 @@ public class Userspace extends FragmentActivity {
         
         setContentView(R.layout.userspace);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager1337);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerUS);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

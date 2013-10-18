@@ -22,7 +22,7 @@ public class Nightmare extends FragmentActivity {
         
         setContentView(R.layout.nightmare);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager13);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerN);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

@@ -22,7 +22,7 @@ public class Scary extends FragmentActivity {
         
         setContentView(R.layout.scary);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager22);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerSC);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

@@ -22,7 +22,7 @@ public class Lagfree extends FragmentActivity {
         
         setContentView(R.layout.lagfree);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager8);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerLF);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

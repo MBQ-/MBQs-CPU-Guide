@@ -22,7 +22,7 @@ public class DynInteractive extends FragmentActivity {
         
         setContentView(R.layout.dyninteractive);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager3);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerDI);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

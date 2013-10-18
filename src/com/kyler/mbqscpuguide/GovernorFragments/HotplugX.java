@@ -22,7 +22,7 @@ public class HotplugX extends FragmentActivity {
         
         setContentView(R.layout.hotplugx);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager5);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerHPX);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

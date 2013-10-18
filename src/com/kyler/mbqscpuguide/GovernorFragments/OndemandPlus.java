@@ -22,7 +22,7 @@ public class OndemandPlus extends FragmentActivity {
         
         setContentView(R.layout.ondemandplus);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager15);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerODP);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

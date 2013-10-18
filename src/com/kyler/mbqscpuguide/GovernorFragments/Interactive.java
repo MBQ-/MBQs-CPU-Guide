@@ -22,7 +22,7 @@ public class Interactive extends FragmentActivity {
         
         setContentView(R.layout.interactive);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager6);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerI);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

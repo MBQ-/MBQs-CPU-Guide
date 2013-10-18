@@ -21,7 +21,7 @@ public class OnDemand extends FragmentActivity {
         
         setContentView(R.layout.ondemand);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager14);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerOD);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

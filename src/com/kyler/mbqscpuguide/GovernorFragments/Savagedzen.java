@@ -22,7 +22,7 @@ public class Savagedzen extends FragmentActivity {
         
         setContentView(R.layout.savagedzen);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager21);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerSZ);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

@@ -22,7 +22,7 @@ public class PegasusQ extends FragmentActivity {
         
         setContentView(R.layout.pegasusq);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager17);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerPQ);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

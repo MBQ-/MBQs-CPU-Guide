@@ -22,7 +22,7 @@ public class InteractiveX extends FragmentActivity {
         
         setContentView(R.layout.interactivex);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager7);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerIX);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

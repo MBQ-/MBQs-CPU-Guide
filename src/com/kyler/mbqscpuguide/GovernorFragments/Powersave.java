@@ -22,7 +22,7 @@ public class Powersave extends FragmentActivity {
         
         setContentView(R.layout.powersave);
         
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager19);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerPS);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));

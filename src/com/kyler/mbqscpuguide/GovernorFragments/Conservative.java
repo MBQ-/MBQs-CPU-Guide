@@ -20,7 +20,7 @@ public class Conservative extends FragmentActivity {
 		setContentView(R.layout.conservative);
 
 		// Locate the viewpager in activity_main.xml
-		ViewPager viewPager = (ViewPager) findViewById(R.id.pager2);
+		ViewPager viewPager = (ViewPager) findViewById(R.id.pagerC);
 
 		// Set the ViewPagerAdapter into ViewPager
 		viewPager.setAdapter(new ConservativePagerAdapter(getSupportFragmentManager()));
