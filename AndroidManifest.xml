@@ -36,7 +36,8 @@ encoding="utf-8"?>
     
         <activity
             android:name="com.kyler.mbqscpuguide.GovernorFragments.BrazilianWax"      
-            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" 
+            android:label="@string/brazilianwax">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value="com.kyler.mbqscpuguide.GuideActivity" />   

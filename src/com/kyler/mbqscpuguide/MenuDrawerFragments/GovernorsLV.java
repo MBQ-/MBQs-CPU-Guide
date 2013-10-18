@@ -17,6 +17,7 @@ import com.kyler.mbqscpuguide.GovernorFragments.Lulzactive;
 import com.kyler.mbqscpuguide.GovernorFragments.MinMax;
 import com.kyler.mbqscpuguide.GovernorFragments.Nightmare;
 import com.kyler.mbqscpuguide.GovernorFragments.OnDemand;
+import com.kyler.mbqscpuguide.GovernorFragments.OnDemandX;
 import com.kyler.mbqscpuguide.GovernorFragments.OndemandPlus;
 import com.kyler.mbqscpuguide.GovernorFragments.PegasusQ;
 import com.kyler.mbqscpuguide.GovernorFragments.Performance;
@@ -55,30 +56,31 @@ public class GovernorsLV extends Fragment {
         
         governors = new String[] 
         		{ 
-        		"Ondemand",
+        		"BrazilianWax",
+        		"Conservative",
+        		"DynInteractive",
+        		"Hotplug",
+        		"HotplugX",
         		"Interactive",
         		"InteractiveX",
+        		"Lagfree",
+        		"Lazy",
+        		"Lionheart",
+        		"Lulzactive",
+        		"MinMax",
+        		"Nightmare",
+        		"OnDemand",
+        		"OnDemandPlus",
+        		"OnDemandX",
+        		"PegasusQ",
         		"Performance",
         		"Powersave",
-        		"Conservative",
-        		"Userspace",
-        		"Lagfree",
-        		"Min Max",
-        		"Hotplug",
-        		"PegasusQ",
-        		"Lazy",
-        		"Nightmare",
-        		"HotplugX",
-        		"Lulzactive",
-        		"Smartass",
-        		"SmartassV2",
-        		"Lionheart",
-        		"BrazilianWax",
+        		"Sakuractive",
         		"Savagedzen",
         		"Scary",
-        		"Sakuractive",
-        		"OndemandPlus",
-        		"DynInteractive" 
+        		"Smartass",
+        		"SmartassV2",
+        		"Userspace"
         		};
         
         aboutLV = (ListView) view.findViewById(R.id.governorLV);
@@ -95,38 +97,38 @@ public class GovernorsLV extends Fragment {
         		switch(position) {
         		
         		case 0:
-        			Intent OnDemand = new Intent(getActivity(), OnDemand.class);
-        			startActivity(OnDemand);
+        			Intent BZW = new Intent(getActivity(), BrazilianWax.class);
+        			startActivity(BZW);
         			break;
 
         		case 1:
-        			Intent Interactive = new Intent(getActivity(), Interactive.class);
-        			startActivity(Interactive);
+        			Intent C = new Intent(getActivity(), Conservative.class);
+        			startActivity(C);
         			break;
 
         		case 2:
-        			Intent InteractiveX = new Intent(getActivity(), InteractiveX.class);
-        			startActivity(InteractiveX);
+        			Intent DI = new Intent(getActivity(), DynInteractive.class);
+        			startActivity(DI);
         			break;
 
         		case 3:
-        			Intent Performance = new Intent(getActivity(), Performance.class);
-        			startActivity(Performance);
+        			Intent HP = new Intent(getActivity(), Hotplug.class);
+        			startActivity(HP);
         			break;
 
         		case 4:
-        			Intent Powersave = new Intent(getActivity(), Powersave.class);
-        			startActivity(Powersave);
+        			Intent HPX = new Intent(getActivity(), HotplugX.class);
+        			startActivity(HPX);
         			break;
 
         		case 5:
-        			Intent Conservative = new Intent(getActivity(), Conservative.class);
-        			startActivity(Conservative);
+        			Intent II = new Intent(getActivity(), Interactive.class);
+        			startActivity(II);
         			break;
 
         		case 6:
-        			Intent Userspace = new Intent(getActivity(), Userspace.class);
-        			startActivity(Userspace);
+        			Intent IX = new Intent(getActivity(), InteractiveX.class);
+        			startActivity(IX);
         			break;
 
         		case 7:
@@ -135,23 +137,23 @@ public class GovernorsLV extends Fragment {
         			break;
 
         		case 8:
-        			Intent MinMax = new Intent(getActivity(), MinMax.class);
-        			startActivity(MinMax);
+        			Intent me = new Intent(getActivity(), Lazy.class);
+        			startActivity(me);
         			break;
 
         		case 9:
-        			Intent Hotplug = new Intent(getActivity(), Hotplug.class);
-        			startActivity(Hotplug);
+        			Intent LH = new Intent(getActivity(), Lionheart.class);
+        			startActivity(LH);
         			break;
 
         		case 10:
-        			Intent PegasusQ = new Intent(getActivity(), PegasusQ.class);
-        			startActivity(PegasusQ);
+        			Intent I = new Intent(getActivity(), Lulzactive.class);
+        			startActivity(I);
         			break;
 
         		case 11:
-        			Intent Lazy = new Intent(getActivity(), Lazy.class);
-        			startActivity(Lazy);
+        			Intent MM = new Intent(getActivity(), MinMax.class);
+        			startActivity(MM);
         			break;
 
         		case 12:
@@ -160,59 +162,64 @@ public class GovernorsLV extends Fragment {
         			break;
 
         		case 13:
-        			Intent HotplugX = new Intent(getActivity(), HotplugX.class);
-        			startActivity(HotplugX);
+        			Intent OD = new Intent(getActivity(), OnDemand.class);
+        			startActivity(OD);
         			break;
 
         		case 14:
-        			Intent Lulzactive = new Intent(getActivity(), Lulzactive.class);
-        			startActivity(Lulzactive);
+        			Intent ODP = new Intent(getActivity(), OndemandPlus.class);
+        			startActivity(ODP);
         			break;
 
         		case 15:
-        			Intent Smartass = new Intent(getActivity(), Smartass.class);
-        			startActivity(Smartass);
+        			Intent ODX = new Intent(getActivity(), OnDemandX.class);
+        			startActivity(ODX);
         			break;
 
         		case 16:
-        			Intent SmartassV2 = new Intent(getActivity(), SmartassV2.class);
-        			startActivity(SmartassV2);
+        			Intent P = new Intent(getActivity(), PegasusQ.class);
+        			startActivity(P);
         			break;
 
         		case 17:
-        			Intent Lionheart = new Intent(getActivity(), Lionheart.class);
-        			startActivity(Lionheart);
+        			Intent Pe = new Intent(getActivity(), Performance.class);
+        			startActivity(Pe);
         			break;
 
         		case 18:
-        			Intent BrazilianWax = new Intent(getActivity(), BrazilianWax.class);
-        			startActivity(BrazilianWax);
+        			Intent PS = new Intent(getActivity(), Powersave.class);
+        			startActivity(PS);
         			break;
 
         		case 19:
-        			Intent Savagedzen = new Intent(getActivity(),Savagedzen.class);
-        			startActivity(Savagedzen);
+        			Intent SAA = new Intent(getActivity(), Sakuractive.class);
+        			startActivity(SAA);
         			break;
 
         		case 20:
-        			Intent Scary = new Intent(getActivity(), Scary.class);
-        			startActivity(Scary);
+        			Intent SZ = new Intent(getActivity(), Savagedzen.class);
+        			startActivity(SZ);
         			break;
 
         		case 21:
-        			Intent Sakuractive = new Intent(getActivity(), Sakuractive.class);
-        			startActivity(Sakuractive);
+        			Intent S = new Intent(getActivity(), Scary.class);
+        			startActivity(S);
         			break;
 
         		case 22:
-        			Intent OndemandPlus = new Intent(getActivity(), OndemandPlus.class);
-        			startActivity(OndemandPlus);
+        			Intent SA = new Intent(getActivity(), Smartass.class);
+        			startActivity(SA);
         			break;
 
         		case 23:
-        			Intent DynInteractive = new Intent(getActivity(), DynInteractive.class);
-        			startActivity(DynInteractive);
-        			break;                          
+        			Intent SmartassV2 = new Intent(getActivity(), SmartassV2.class);
+        			startActivity(SmartassV2);
+        			break;   
+        			
+        		case 24:
+        			Intent Userspace = new Intent(getActivity(), Userspace.class);
+        			startActivity(Userspace);
+        			break;         			
                 
         		}
         		

@@ -7,12 +7,13 @@
     <string name="drawer_close">Close</string>
 	
     <string-array name="Items">
-        <item>Welcome</item>
+        <item>Welcome!</item>
         <item>CPU Governors</item>
         <item>I/O Schedulers</item>
         <item>TCP Algorithms</item>
         <item>Android Tips</item>
     </string-array>
+    
         <string name="exit">Exit</string>
         <string name="ok">OK</string>
         <string name="themes">Themes</string>
@@ -21,10 +22,11 @@
         <string name="holo_light_darkactionbar">Holo Light | DarkActionBar</string>
         <string name="welcome1">Hello, and welcome to my CPU Guide!</string>
         <string name="welcome2">Here, you can find the following information:</string>
-        <string name="welcome3">- CPU Governor Definitions</string>
-        <string name="welcome4">- I/O Scheduler Definitions</string>
-        <string name="welcome5">- TCP Algorithm Definitions</string>
-        <string name="welcome6">- And more!</string>
-        <string name="app_version">v0.1</string>	
+        <string name="welcome3">-CPU Governor Definitions</string>
+        <string name="welcome4">-I/O Scheduler Definitions</string>
+        <string name="welcome5">-TCP Algorithm Definitions</string>
+        <string name="welcome6">-And more!</string>
+        <string name="app_version">v0.1</string>
+        <string name="brazilianwax">BrazilianWax</string>	
 
 </resources>
