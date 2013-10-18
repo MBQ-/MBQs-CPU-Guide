@@ -2,7 +2,6 @@ package com.kyler.mbqscpuguide;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.Context;
@@ -13,6 +12,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.KeyEvent;
@@ -33,7 +33,7 @@ import com.kyler.mbqscpuguide.MenuDrawerFragments.GovernorsLV;
 import com.kyler.mbqscpuguide.MenuDrawerFragments.Welcome;
 
 @SuppressLint("NewApi")
-public class GuideActivity extends Activity {
+public class GuideActivity extends FragmentActivity {
 	Context mContext;
 	
 	Intent intent;
@@ -67,6 +67,11 @@ public class GuideActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		
 		SharedPreferences first = PreferenceManager.getDefaultSharedPreferences(this);
+		
+        if (getIntent().getBooleanExtra("EXIT", false)) 
+        {
+                finish();
+        }			
 
 		if(!first.getBoolean("firstTime", false)) {
 		
@@ -80,12 +85,7 @@ public class GuideActivity extends Activity {
         editor.putBoolean("firstTime", true);
         editor.commit();
 
-	}
-		
-        if (getIntent().getBooleanExtra("EXIT", false)) 
-        {
-                finish();
-        }		
+	}	
         
         getActionBar().setDisplayHomeAsUpEnabled(true);
         
@@ -210,7 +210,7 @@ private void selectItem(int position) {
    switch (position) {
    
    case 0:
-       ft.add(R.id.content_frame, Welcome);
+       ft.replace(R.id.content_frame, Welcome);
        break; 
        
    case 1:
