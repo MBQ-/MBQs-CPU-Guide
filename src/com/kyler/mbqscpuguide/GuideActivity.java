@@ -29,7 +29,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.kyler.mbqscpuguide.FirstRun.WelcomeFirstRun;
-import com.kyler.mbqscpuguide.Fragments.Welcome;
+import com.kyler.mbqscpuguide.MenuDrawerFragments.GovernorsLV;
+import com.kyler.mbqscpuguide.MenuDrawerFragments.Welcome;
 
 @SuppressLint("NewApi")
 public class GuideActivity extends Activity {
@@ -44,6 +45,7 @@ public class GuideActivity extends Activity {
 	private static final int PERIOD = 2000;		
    	
 	Fragment Welcome = new Welcome();
+	Fragment Governors = new GovernorsLV();
 	
 	TextView textview;
 	
@@ -209,7 +211,11 @@ private void selectItem(int position) {
    
    case 0:
        ft.replace(R.id.content_frame, Welcome);      
-       break;           
+       break; 
+       
+   case 1:
+       ft.replace(R.id.content_frame, Governors);
+       break;         
     	
         }
         
