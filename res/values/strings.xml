@@ -29,7 +29,7 @@
         <string name="welcome4">-I/O Scheduler Definitions</string>
         <string name="welcome5">-TCP Algorithm Definitions</string>
         <string name="welcome6">-And more!</string>
-        <string name="app_version">v0.1</string>
+        <string name="app_version">v0.0.1a</string>
         
         <!--                   Governors              -->
         <string name="brazilianwax">BrazilianWax</string>	
