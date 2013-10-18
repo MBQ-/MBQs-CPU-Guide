@@ -57,6 +57,7 @@
         <string name="smartass">Smartass</string>
         <string name="smartassv2">SmartassV2</string> 
         <string name="userspace">Userspace</string>    
-        <!--                End Governors              -->    
+        <!--                End Governors              --> 
+        <string name="back">Back</string>    
 
 </resources>

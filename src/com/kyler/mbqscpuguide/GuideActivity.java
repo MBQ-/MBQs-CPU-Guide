@@ -210,7 +210,7 @@ private void selectItem(int position) {
    switch (position) {
    
    case 0:
-       ft.replace(R.id.content_frame, Welcome);      
+       ft.add(R.id.content_frame, Welcome);
        break; 
        
    case 1:
