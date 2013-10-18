@@ -1,14 +1,12 @@
 package com.kyler.mbqscpuguide.Adapters.ListViewAdapters.Governors;
 
-import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.BrazilianWaxDefinition;
-import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.BrazilianWaxUsage;
-import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.ConservativeDefinition;
-import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.ConservativeUsage;
-
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.ConservativeDefinition;
+import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.ConservativeUsage;
 
 public class ConservativePagerAdapter extends FragmentPagerAdapter {
 

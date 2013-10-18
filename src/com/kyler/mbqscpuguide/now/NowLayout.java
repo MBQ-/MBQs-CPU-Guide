@@ -1,14 +1,13 @@
 package com.kyler.mbqscpuguide.now;
 
-import com.kyler.mbqscpuguide.R;
-import com.kyler.mbqscpuguide.R.anim;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
+
+import com.kyler.mbqscpuguide.R;
 
 public class NowLayout extends LinearLayout implements OnGlobalLayoutListener {
 
