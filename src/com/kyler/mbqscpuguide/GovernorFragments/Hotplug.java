@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+@SuppressWarnings("unused")
 public class Hotplug extends FragmentActivity {
 
     @Override
