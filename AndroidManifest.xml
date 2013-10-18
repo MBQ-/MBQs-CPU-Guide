@@ -32,7 +32,199 @@ encoding="utf-8"?>
             android:name="com.kyler.mbqscpuguide.FirstRun.WelcomeFirstRun" 
             tools:ignore="InnerclassSeparator">  
             
-    </activity>          
+    </activity>     
+    
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.BrazilianWax"      
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>    
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Conservative" 
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.DynInteractive"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>      
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Hotplug"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity> 
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.HotplugX"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Interactive"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>   
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.InteractiveX"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>   
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Lagfree"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>   
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Lazy"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>      
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Lionheart"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity> 
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Lulzactive"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.MinMax"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Nightmare"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>    
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.OnDemand"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity> 
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.OnDemandX"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>   
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.PegasusQ"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Performance"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity> 
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Powersave"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity> 
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Sakuractive"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Savagedzen"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity> 
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Scary"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Smartass"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.SmartassV2"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>  
+        
+        <activity
+            android:name="com.kyler.mbqscpuguide.GovernorFragments.Userspace"     
+            android:parentActivityName="com.kyler.mbqscpuguide.GuideActivity" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.kyler.mbqscpuguide.GuideActivity" />   
+        </activity>          
     </application>
 
 </manifest>
