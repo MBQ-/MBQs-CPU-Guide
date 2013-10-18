@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <integer name="config_slide_time">925</integer>
+     
+    <integer name="card_flip_time_full">470</integer>
+    <integer name="card_flip_time_half">480</integer>
+</resources>

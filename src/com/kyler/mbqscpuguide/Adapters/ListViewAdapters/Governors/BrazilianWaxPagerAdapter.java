@@ -1,42 +1,47 @@
 package com.kyler.mbqscpuguide.Adapters.ListViewAdapters.Governors;
 
 import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.BrazilianWaxDefinition;
+import com.kyler.mbqscpuguide.LVFragments.Governors.Definitions.BrazilianWaxUsage;
 
+import android.content.Context;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.view.MenuItem;
- 
+
 public class BrazilianWaxPagerAdapter extends FragmentPagerAdapter {
-	
-	MenuItem menu;
 
-	private final String[] TITLES = { 
-			"Definition",  
-			};
+	final int PAGE_COUNT = 2;
+	// Tab Titles
+	private String tabtitles[] = new String[] { "Definition", "Usage" };
+	Context context;
 
-	public BrazilianWaxPagerAdapter(android.support.v4.app.FragmentManager fm) {
+	public BrazilianWaxPagerAdapter(FragmentManager fm) {
 		super(fm);
 	}
 
 	@Override
-	public CharSequence getPageTitle(int position) {
-		return TITLES[position];
-		
-	}
-
-	@Override
 	public int getCount() {
-		return TITLES.length;
+		return PAGE_COUNT;
 	}
 
 	@Override
-	public android.support.v4.app.Fragment getItem(int position) {
+	public Fragment getItem(int position) {
 		switch (position) {
-        case 0:
-            BrazilianWaxDefinition ondemand = new BrazilianWaxDefinition();
-            return ondemand;                  	
+
+		case 0:
+			BrazilianWaxDefinition bwd = new BrazilianWaxDefinition();
+			return bwd;		
+			
+		case 1:
+			BrazilianWaxUsage bwu = new BrazilianWaxUsage();
+			return bwu;				
+
 		}
-		
 		return null;
-		
-		}
+	}
+
+	@Override
+	public CharSequence getPageTitle(int position) {
+		return tabtitles[position];
+	}
 }
