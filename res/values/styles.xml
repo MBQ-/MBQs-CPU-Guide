@@ -16,7 +16,7 @@
         <item name="android:minHeight">150dp</item>
         <item name="android:minWidth">200dp</item>
         <item name="android:textColor">#CC33B5E5</item>
-    </style>
+    </style>  
     
     <style 
         name="Holo_Light_Text" parent="@android:style/Theme.Holo.Light">   
