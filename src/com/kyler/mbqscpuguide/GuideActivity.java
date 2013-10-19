@@ -31,10 +31,14 @@ import android.widget.Toast;
 import com.kyler.mbqscpuguide.FirstRun.WelcomeFirstRun;
 import com.kyler.mbqscpuguide.MenuDrawerFragments.GovernorsLV;
 import com.kyler.mbqscpuguide.MenuDrawerFragments.Welcome;
+import com.kyler.mbqscpuguide.Utils.Utils;
+
 
 @SuppressLint("NewApi")
 public class GuideActivity extends FragmentActivity {
 	Context mContext;
+	
+	Utils utils;
 	
 	Intent intent;
 	
@@ -75,6 +79,7 @@ public class GuideActivity extends FragmentActivity {
 
 		if(!first.getBoolean("firstTime", false)) {
 		
+		Utils.onActivityCreateSetTheme(this);	
         Intent intent = new Intent(this, WelcomeFirstRun.class);            
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);            
         startActivity(intent);  
@@ -85,7 +90,9 @@ public class GuideActivity extends FragmentActivity {
         editor.putBoolean("firstTime", true);
         editor.commit();
 
-	}	
+	}
+		
+		Utils.onActivityCreateSetTheme(this);
         
         getActionBar().setDisplayHomeAsUpEnabled(true);
         
@@ -189,7 +196,15 @@ public class GuideActivity extends FragmentActivity {
         	// BYE :(
         	super.finish();
         	break;
-             
+        	
+        case R.id.holoText:
+        	Utils.changeToTheme(this, Utils.Holo_Light_Text);
+        	break;        	
+        	
+        case R.id.blackText:
+        	Utils.changeToTheme(this, Utils.Black_Text);
+        	break;
+                     
             default:
 
        };     

@@ -60,6 +60,9 @@
         <!--                End Governors              --> 
         <string name="back">Back</string> 
         <string name="slideright">Slide right or tap the applications icon in the top left to start!</string> 
-        <string name="welcomeeee">Welcome to my CPU Guide!</string>    
+        <string name="welcomeeee">Welcome to my CPU Guide!</string> 
+        <string name="text_color">Text Color</string> 
+        <string name="holo_default_">Holo (Default)</string> 
+        <string name="black">Black</string>    
 
 </resources>

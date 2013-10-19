@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style 
         name="AppBaseTheme" 
@@ -16,6 +16,41 @@
         <item name="android:minHeight">150dp</item>
         <item name="android:minWidth">200dp</item>
         <item name="android:textColor">#CC33B5E5</item>
-    </style>      
+    </style>
+    
+    <style 
+        name="Holo_Light_Text" parent="@android:style/Theme.Holo.Light">   
+        <item name="android:textViewStyle">@style/HLFont</item> 
+        <item name="android:listViewStyle">@style/LV.HoloLight</item> 
+    </style> 
+    
+  <style name="LV.HoloLight" parent="android:Widget.ListView">
+      <item name="android:textColor">@color/black</item>
+      <item name="android:fontFamily">roboto-light</item>
+  </style>     
+    
+	<style name="HLFont" parent="android:Widget.TextView">
+    	<item name="android:fontFamily">roboto-light</item>
+    	<item name="android:textColor">@color/pressed_holo_light_dab</item>
+    	
+	</style>   
+	
+    <style 
+        name="Black_Text" parent="@android:style/Theme.Holo.Light">   
+        <item name="android:textViewStyle">@style/BlackFont</item> 
+        <item name="android:listViewStyle">@style/LV.BlackText</item> 
+        <item name="android:textStyle">italic</item>
+    </style>  
+    
+  <style name="LV.BlackText" parent="android:Widget.ListView">
+      <item name="android:fontFamily">roboto-light</item>
+      <item name="android:textColor">@color/black</item>
+  </style>      
+    
+	<style name="BlackFont" parent="android:Widget.TextView">
+    	<item name="android:fontFamily">roboto-light</item>
+    	<item name="android:textColor">@color/black</item>
+    	<item name="android:textStyle">italic</item>
+	</style>  	
 
 </resources>

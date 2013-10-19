@@ -9,12 +9,15 @@ import android.view.MenuItem;
 
 import com.kyler.mbqscpuguide.R;
 import com.kyler.mbqscpuguide.Adapters.ListViewAdapters.Governors.BrazilianWaxPagerAdapter;
+import com.kyler.mbqscpuguide.Utils.Utils;
 
 public class BrazilianWax extends FragmentActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		Utils.onActivityCreateSetTheme(this);
 		
 		// Get the view from activity_main.xml
 		setContentView(R.layout.brazilianwax);
