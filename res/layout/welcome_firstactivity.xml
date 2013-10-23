@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="@string/ok" />
+        android:text="@string/Ok" />
 
     <TextView
         android:id="@+id/textView1"
@@ -20,7 +20,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="44dp"
         android:fontFamily="roboto-light"
-        android:text="@string/welcome1"
+        android:text="@string/Willkommen1"
         android:textStyle="italic"
         android:typeface="normal" />
 
@@ -32,7 +32,7 @@
         android:layout_below="@+id/textView2"
         android:layout_marginTop="32dp"
         android:fontFamily="roboto-light"
-        android:text="@string/welcome3"
+        android:text="@string/Willkommen3"
         android:textStyle="italic"
         android:typeface="normal" />
 
@@ -43,7 +43,7 @@
         android:layout_alignLeft="@+id/textView3"
         android:layout_below="@+id/textView3"
         android:fontFamily="roboto-light"
-        android:text="@string/welcome4"
+        android:text="@string/Willkommen4"
         android:textStyle="italic"
         android:typeface="normal" />
 
@@ -54,7 +54,7 @@
         android:layout_alignLeft="@+id/textView4"
         android:layout_below="@+id/textView4"
         android:fontFamily="roboto-light"
-        android:text="@string/welcome5"
+        android:text="@string/Willkommen5"
         android:textStyle="italic"
         android:typeface="normal" />
 
@@ -65,7 +65,7 @@
         android:layout_alignLeft="@+id/textView5"
         android:layout_below="@+id/textView5"
         android:fontFamily="roboto-light"
-        android:text="@string/welcome6"
+        android:text="@string/Willkommen6"
         android:textStyle="italic"
         android:typeface="normal" />
 
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="@string/app_version"
+        android:text="@string/App_Version"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
