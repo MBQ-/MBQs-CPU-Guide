@@ -4,7 +4,7 @@
     <item 
         android:id="@+id/goBack" 
         android:showAsAction="always|withText" 
-        android:title="@string/Zurück">
+        android:title="@string/back">
         
     </item>
     

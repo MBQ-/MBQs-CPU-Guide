@@ -3,22 +3,22 @@
     <item 
         android:id="@+id/exit" 
         android:showAsAction="always|withText|collapseActionView" 
-        android:title="@string/Ende">
+        android:title="@string/exit">
         
     </item>
     
     <item 
         android:id="@+id/setTextColor" 
-        android:title="@string/Textarbe">
+        android:title="@string/text_color">
         
         <menu>
             <item 
                 android:id="@+id/holoText" 
-                android:title="@string/Standard Holo" />
+                android:title="@string/holo_default_" />
             
             <item 
                 android:id="@+id/blackText"
-                android:title="@string/Schwarz" />
+                android:title="@string/black" />
             
         </menu>
         
@@ -30,20 +30,20 @@
         
         <item 
             android:id="@+id/themes" 
-            android:title="@string/Themes">
+            android:title="@string/themes">
             
             <menu>
                 <item 
                     android:id="@+id/Holo"
-                     android:title="@string/Holo"/>
+                     android:title="@string/holo"/>
                 
                 <item
                      android:id="@+id/Holo_Light" 
-                     android:title="@string/Holo Light Standard"/>
+                     android:title="@string/holo_light_default_"/>
                 
                 <item 
                     android:id="@+id/Holo_Light_DAB" 
-                    android:title="@string/Holo Light Schwarz Actionbar"/>			
+                    android:title="@string/holo_light_darkactionbar"/>			
                 
             </menu>
             
