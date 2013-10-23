@@ -2,11 +2,11 @@
 <resources>
 
     <string name="app_name">MBQs CPU Guide</string>
-    <string name="action_settings">Settings</string>
-    <string name="drawer_open">Open</string>
-    <string name="drawer_close">Close</string>
-    <string name="exit">Exit</string>
-    <string name="ok">OK</string>    
+    <string name="action_settings">Einstellungen</string>
+    <string name="drawer_open">Öffnen</string>
+    <string name="drawer_close">Schließen</string>
+    <string name="exit">Ende</string>
+    <string name="ok">Ok</string>    
 	
     <string-array name="Items">
         <item>Welcome!</item>
@@ -18,12 +18,12 @@
         
         <!--                   Themes              -->
         <string name="themes">Themes</string>
-        <string name="holo_light_default_">Holo Light (Default)</string>
+        <string name="holo_light_default_">Holo Light (Standard)</string>
         <string name="holo">Holo</string>
-        <string name="holo_light_darkactionbar">Holo Light | DarkActionBar</string>
+        <string name="holo_light_darkactionbar">Holo Light | Dunkle ActionBar</string>
         <!--                 End Themes              -->
         
-        <string name="welcome1">Hello, and welcome to my CPU Guide!</string>
+        <string name="welcome1">Hallo und herzlich Willkommen zu meinem CPU Guide!</string>
         <string name="welcome2">Here, you can find the following information:</string>
         <string name="welcome3">-CPU Governor Definitions</string>
         <string name="welcome4">-I/O Scheduler Definitions</string>
