@@ -13,7 +13,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginTop="32dp"
         android:fontFamily="roboto-light"
-        android:text="@string/slideright"
+        android:text="@string/Slider rechts"
         android:textColor="@color/black"
         android:textStyle="italic"
         android:typeface="normal" />
@@ -26,7 +26,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="178dp"
         android:fontFamily="roboto-light"
-        android:text="@string/welcomeeee"
+        android:text="@string/Willkommeeeeeen"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/black"
         android:textStyle="italic"
