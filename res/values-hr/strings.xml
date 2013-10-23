@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MBQs CPU Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="ok">OK</string>    
+	
+    <string-array name="Items">
+        <item>Welcome!</item>
+        <item>CPU Governors</item>
+        <item>I/O Schedulers</item>
+        <item>TCP Algorithms</item>
+        <item>Android Tips</item>
+    </string-array>
+        
+        <!--                   Themes              -->
+        <string name="themes">Themes</string>
+        <string name="holo_light_default_">Holo Light (Default)</string>
+        <string name="holo">Holo</string>
+        <string name="holo_light_darkactionbar">Holo Light | DarkActionBar</string>
+        <!--                 End Themes              -->
+        
+        <string name="welcome1">Hello, and welcome to my CPU Guide!</string>
+        <string name="welcome2">Here, you can find the following information:</string>
+        <string name="welcome3">-CPU Governor Definitions</string>
+        <string name="welcome4">-I/O Scheduler Definitions</string>
+        <string name="welcome5">-TCP Algorithm Definitions</string>
+        <string name="welcome6">-And more!</string>
+        <string name="app_version">v0.0.1a</string>
+        
+        <!--                   Governors              -->
+        <string name="brazilianwax">BrazilianWax</string>	
+        <string name="conservative">Conservative</string>
+        <string name="dyninteractive">DynInteractive</string>
+        <string name="hotplug">Hotplug</string>	
+        <string name="hotplugx">HotplugX</string>
+        <string name="interactive">Interactive</string>          
+        <string name="interactivex">InteractiveX</string>	
+        <string name="lagfree">Lagfree</string>
+        <string name="lazy">Lazy</string>
+        <string name="lionheart">Lionheart</string>	
+        <string name="lulzactive">Lulzactive</string>
+        <string name="minmax">MinMax</string>           
+        <string name="nightmare">Nightmare</string>	
+        <string name="ondemand">OnDemand</string>
+        <string name="ondemandplus">OnDemandPlus</string>
+        <string name="ondemandx">OnDemandX</string>	
+        <string name="pegasusq">PegasusQ</string>
+        <string name="performance">Performance</string>          
+        <string name="powersave">Powersave</string>	
+        <string name="sakuractive">Sakuractive</string>
+        <string name="savagedzen">Savagedzen</string>
+        <string name="scary">Scary</string>	
+        <string name="smartass">Smartass</string>
+        <string name="smartassv2">SmartassV2</string> 
+        <string name="userspace">Userspace</string>    
+        <!--                End Governors              --> 
+        <string name="back">Back</string> 
+        <string name="slideright">Slide right or tap the applications icon in the top left to start!</string> 
+        <string name="welcomeeee">Welcome to my CPU Guide!</string> 
+        <string name="text_color">Text Color</string> 
+        <string name="holo_default_">Holo (Default)</string> 
+        <string name="black">Black</string>    
+
+</resources>
