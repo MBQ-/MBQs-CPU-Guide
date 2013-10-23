@@ -58,7 +58,7 @@
         <string name="smartassv2">SmartassV2</string> 
         <string name="userspace">Userspace</string>    
         <!--                End Governors              --> 
-        <string name="back">zurück</string> 
+        <string name="back">Zurück</string> 
         <string name="slideright">Gleite über den Bildschirm nach Rechts oder berühre das Programmicon oben links um zu beginnen!</string> 
         <string name="welcomeeee">Hallo und herzlich Willkommen zu meinem CPU Guide!</string> 
         <string name="text_color">Textfarbe</string> 
