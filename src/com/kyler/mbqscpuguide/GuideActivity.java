@@ -204,6 +204,11 @@ public class GuideActivity extends FragmentActivity {
         case R.id.blackText:
         	Utils.changeToTheme(this, Utils.Black_Text);
         	break;
+        	
+        case R.id.translators:
+        	Intent openTranslators = new Intent(this, AppTranslators.class);
+        	startActivity(openTranslators);
+        	break;
                      
             default:
 
