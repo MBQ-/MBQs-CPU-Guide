@@ -64,5 +64,6 @@
         <string name="text_color">Text Color</string> 
         <string name="holo_default_">Holo (Default)</string> 
         <string name="black">Black</string>    
+        <string name="translators">Translators</string>
 
 </resources>
