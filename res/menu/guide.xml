@@ -7,6 +7,12 @@
         
     </item>
     
+    <item
+        android:id="@+id/translators"
+        android:title="@string/translators" >
+            
+        </item>
+    
     <item 
         android:id="@+id/setTextColor" 
         android:title="@string/text_color">
